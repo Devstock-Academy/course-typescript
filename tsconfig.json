@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "outDir": "build", // where to put the TS files
+    "target": "ES2015", // JS language level (as a build target), try ES2017, ES2022
+    "moduleResolution": "nodenext",
+    "declaration": true,
+    // module: "CommonJS" - for node
+    // "moduleResolution": "nodenext",
+    "module": "NodeNext"
+  },
+  "include": ["src/lesson05/end.ts"] // which files to compile
+}

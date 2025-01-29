@@ -1,0 +1,14 @@
+{
+  "name": "course-typescript-playground",
+  "version": "1.0.0",
+  "main": "index.ts",
+  "scripts": {
+    "dev": "tsc --watch --preserveWatchOutput"
+  },
+  "author": "Bartłomiej Łoza",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "typescript": "^5.7.3"
+  }
+}
