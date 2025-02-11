@@ -4,6 +4,7 @@ const PORT = 3000;
 const server = createServer(async (req, res) => {
   res.end(JSON.stringify({ status: 'ok'}))
 
+  // 1st option serve static files from frontend folder while hitting /static/ endpoint
   // if (// startsWith(/static/)) {}
   // then server file 
   // 2nd option allow CORS
