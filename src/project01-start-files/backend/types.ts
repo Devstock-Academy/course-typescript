@@ -1,9 +1,9 @@
 export interface User {
-    id: string;
+    id: string; //immutable
     username: string;
     password: string; // Dla uproszczenia przechowujemy hasło w postaci jawnej (w praktyce należy stosować hashowanie)
-    role: 'admin' | 'user';
-    balance: number;
+    role: 'admin' | 'user'; //immutable
+    balance: number; //immutable
   }
   
   export interface Car {

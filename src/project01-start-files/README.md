@@ -14,15 +14,16 @@ Konto administratora jest predefiniowane w `db/users.json`:
 - **Password:** admin123
 
 ## Cele zadania
-- CRUD dla users
-- CRUD dla cars
+- CRUD dla users (create, read, update, delete)
+- CRUD dla cars (create, read, update, delete)
+- zapis do bazy danych w formie plików json
+- obsługa błędów
 - logowanie
 - rejestracja
 - sprawdzanie roli/permissionów (admin widzi wszystko i może updatować wszystko, user może tylko swoje zasoby)
-- ustawianie ciasteczka (dla chętnych refresh tokena i expire time)
-- zapis do bazy danych w formie plików json
 - serwowanie frontendu z poziomu serwera jako pliki statyczne
 - dopieszczenie frontendu
-- SSE - (server side events), w momencie zakupu samochodu wysyłamy info do wszystkich podpiętych userów
-- hack/fund, backdoor do zasilania konta usera
+- hack/fund/10000, backdoor do zasilania konta usera (bonus)
 - pełne otypowanie
+- *ustawianie ciasteczka (dla chętnych refresh tokena i expire time)
+- **SSE - (server side events), w momencie zakupu samochodu wysyłamy info do wszystkich podpiętych userów
