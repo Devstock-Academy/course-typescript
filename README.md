@@ -5,3 +5,11 @@ Individual lessons can be found in folders with appropriate names.
 
 - ES2015 modules use export which won't work in node
 - Node supports native modules "nodenext", just set up module and moduleResolution in tsconfig
+
+
+
+npm init
+install typescript
+tsconfig
+tsc --outDir dist
+tsc watch
